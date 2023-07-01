@@ -1,0 +1,329 @@
+- 23:09:13.156 INFO: --------------------------------------------------------
+- 23:09:13.156 INFO: Started application
+- 23:09:13.172 INFO: Logging to: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 23:09:13.172 INFO: Log level = DEBUG4
+- 23:09:13.172 INFO: Starting Mongoose 3.9c web server
+- 23:09:13.188 INFO: WWW directory: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www\karyawan
+- 23:09:13.188 INFO: Index files: /,/
+- 23:09:13.188 INFO: CGI interpreter: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 23:09:13.188 INFO: CGI pattern: **.php$
+- 23:09:13.188 INFO: Hide files patterns: 
+- 23:09:13.188 INFO: CGI environment variables set: TMP=C:\Users\muham\AppData\Local\Temp\,TEMP=C:\Users\muham\AppData\Local\Temp\,TMPDIR=C:\Users\muham\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:09:13.188 INFO: Web server url: http://127.0.0.1:8000/
+- 23:09:13.188 INFO: remote_debugging_port = 53232
+- 23:09:13.188 DEBUG: Command line string for the browser process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=53232
+- 23:09:14.313 DEBUG: App::OnContextInitialized()
+- 23:09:14.313 DEBUG: Window max width/height = 1286/690
+- 23:09:14.313 DEBUG: GetBrowserWindow(): not found, hwnd = 852928
+- 23:09:14.313 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:09:14.313 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:09:14.313 DEBUG: StoreBrowserWindow(): hwnd = 852928
+- 23:09:14.406 DEBUG: ClientHandler::OnAfterCreated()
+- 23:09:14.422 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:09:14.016 DEBUG: Command line string for the gpu-process process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134f --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=A99E0EE43898A7ED045F3EAF54AA74B6 --mojo-platform-channel-handle=1916 /prefetch:2
+- 23:09:14.438 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:09:14.000 DEBUG: Command line string for the renderer process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=CBE5901C6D4580A130451669B7231009 --lang=en-US --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=CBE5901C6D4580A130451669B7231009 --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+- 23:09:14.094 DEBUG: OnBrowserCreated()
+[0602/230914.795:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:09:16.734 DEBUG: OnContextCreated()
+- 23:09:17.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 23:09:20.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 23:09:21.875 DEBUG: OnContextCreated()
+- 23:09:21.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/cuti
+- 23:09:22.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/cuti
+- 23:09:23.906 DEBUG: OnContextCreated()
+- 23:09:23.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/pekerjaan
+- 23:09:29.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/pekerjaan
+- 23:09:30.719 DEBUG: OnContextCreated()
+- 23:09:30.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absensi
+- 23:09:30.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absensi
+- 23:09:31.969 DEBUG: OnContextCreated()
+- 23:09:31.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/pekerjaan
+- 23:09:32.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/pekerjaan
+- 23:09:33.781 DEBUG: OnContextCreated()
+- 23:09:33.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 23:09:40.188 DEBUG: WM_DESTROY
+- 23:09:40.188 DEBUG: RemoveBrowserWindow(): hwnd = 852928
+- 23:09:40.188 INFO: Stopping Mongoose web server
+- 23:09:40.188 DEBUG: Mongoose webserver stopped immediately
+- 23:09:40.188 DEBUG: OnBeforeClose() hwnd=394134
+- 23:09:40.203 DEBUG: RemoveBrowserWindow(): hwnd = 394134
+- 23:09:40.203 DEBUG: GetBrowserWindow(): not found, hwnd = 394134
+- 23:09:40.203 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:09:40.203 DEBUG: Calling CefQuitMessageLoop()
+- 23:09:41.266 INFO: Ended application
+- 23:09:41.266 INFO: --------------------------------------------------------
+- 21:21:18.157 INFO: --------------------------------------------------------
+- 21:21:18.157 INFO: Started application
+- 21:21:18.157 INFO: Logging to: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:21:18.157 INFO: Log level = DEBUG4
+- 21:21:18.157 INFO: Starting Mongoose 3.9c web server
+- 21:21:18.157 INFO: WWW directory: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www\karyawan
+- 21:21:18.157 INFO: Index files: /,/
+- 21:21:18.157 INFO: CGI interpreter: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:21:18.157 INFO: CGI pattern: **.php$
+- 21:21:18.157 INFO: Hide files patterns: 
+- 21:21:18.157 INFO: CGI environment variables set: TMP=C:\Users\muham\AppData\Local\Temp\,TEMP=C:\Users\muham\AppData\Local\Temp\,TMPDIR=C:\Users\muham\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:21:18.172 INFO: Web server url: http://127.0.0.1:8000/
+- 21:21:18.172 INFO: remote_debugging_port = 61869
+- 21:21:18.172 DEBUG: Command line string for the browser process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61869
+- 21:21:18.282 DEBUG: App::OnContextInitialized()
+- 21:21:18.282 DEBUG: Window max width/height = 1286/690
+- 21:21:18.297 DEBUG: GetBrowserWindow(): not found, hwnd = 264412
+- 21:21:18.297 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:21:18.297 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:21:18.297 DEBUG: StoreBrowserWindow(): hwnd = 264412
+- 21:21:18.469 DEBUG: ClientHandler::OnAfterCreated()
+- 21:21:18.469 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:21:18.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:21:18.000 DEBUG: Command line string for the gpu-process process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134f --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=03847EE534CE8A03254BBF8D082E6419 --mojo-platform-channel-handle=1804 /prefetch:2
+- 21:21:18.016 DEBUG: Command line string for the renderer process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F0B97EDAC2895B3DFE11F17E171934D1 --lang=en-US --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F0B97EDAC2895B3DFE11F17E171934D1 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 21:21:18.078 DEBUG: OnBrowserCreated()
+[0605/212118.748:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:21:20.219 DEBUG: OnContextCreated()
+- 21:21:21.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:21:48.375 DEBUG: WM_DESTROY
+- 21:21:48.375 DEBUG: RemoveBrowserWindow(): hwnd = 264412
+- 21:21:48.391 INFO: Stopping Mongoose web server
+- 21:21:48.391 DEBUG: Mongoose webserver stopped immediately
+- 21:21:48.407 DEBUG: OnBeforeClose() hwnd=525632
+- 21:21:48.407 DEBUG: RemoveBrowserWindow(): hwnd = 525632
+- 21:21:48.407 DEBUG: GetBrowserWindow(): not found, hwnd = 525632
+- 21:21:48.407 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:21:48.407 DEBUG: Calling CefQuitMessageLoop()
+- 21:21:48.516 INFO: Ended application
+- 21:21:48.516 INFO: --------------------------------------------------------
+- 21:22:16.109 INFO: --------------------------------------------------------
+- 21:22:16.109 INFO: Started application
+- 21:22:16.109 INFO: Logging to: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:22:16.109 INFO: Log level = DEBUG4
+- 21:22:16.109 INFO: Starting Mongoose 3.9c web server
+- 21:22:16.109 INFO: WWW directory: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www\karyawan
+- 21:22:16.109 INFO: Index files: /,/
+- 21:22:16.125 INFO: CGI interpreter: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:22:16.125 INFO: CGI pattern: **.php$
+- 21:22:16.125 INFO: Hide files patterns: 
+- 21:22:16.125 INFO: CGI environment variables set: TMP=C:\Users\muham\AppData\Local\Temp\,TEMP=C:\Users\muham\AppData\Local\Temp\,TMPDIR=C:\Users\muham\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:22:16.140 INFO: Web server url: http://127.0.0.1:8000/
+- 21:22:16.140 INFO: remote_debugging_port = 58944
+- 21:22:16.140 DEBUG: Command line string for the browser process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58944
+- 21:22:16.234 DEBUG: App::OnContextInitialized()
+- 21:22:16.234 DEBUG: Window max width/height = 1286/690
+- 21:22:16.250 DEBUG: GetBrowserWindow(): not found, hwnd = 2622548
+- 21:22:16.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:22:16.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:22:16.250 DEBUG: StoreBrowserWindow(): hwnd = 2622548
+- 21:22:16.015 DEBUG: Command line string for the gpu-process process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134f --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=811A7EB8A150807BBD4DC5DD982AEE9F --mojo-platform-channel-handle=1808 /prefetch:2
+- 21:22:16.343 DEBUG: ClientHandler::OnAfterCreated()
+- 21:22:16.343 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:22:16.375 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:22:16.000 DEBUG: Command line string for the renderer process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=722D9E4D6E68F9CBE29281B93DFF6351 --lang=en-US --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=722D9E4D6E68F9CBE29281B93DFF6351 --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+[0605/212216.425:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:22:16.078 DEBUG: OnBrowserCreated()
+- 21:22:18.671 DEBUG: OnContextCreated()
+- 21:22:18.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:22:20.578 DEBUG: WM_DESTROY
+- 21:22:20.578 DEBUG: RemoveBrowserWindow(): hwnd = 2622548
+- 21:22:20.593 INFO: Stopping Mongoose web server
+- 21:22:20.593 DEBUG: Mongoose webserver stopped immediately
+- 21:22:20.593 DEBUG: OnBeforeClose() hwnd=329946
+- 21:22:20.593 DEBUG: RemoveBrowserWindow(): hwnd = 329946
+- 21:22:20.593 DEBUG: GetBrowserWindow(): not found, hwnd = 329946
+- 21:22:20.593 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:22:20.593 DEBUG: Calling CefQuitMessageLoop()
+- 21:22:20.640 INFO: Ended application
+- 21:22:20.640 INFO: --------------------------------------------------------
+- 21:22:39.187 INFO: --------------------------------------------------------
+- 21:22:39.203 INFO: Started application
+- 21:22:39.203 INFO: Logging to: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:22:39.203 INFO: Log level = DEBUG4
+- 21:22:39.203 INFO: Starting Mongoose 3.9c web server
+- 21:22:39.203 INFO: WWW directory: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www\karyawan
+- 21:22:39.203 INFO: Index files: /,/
+- 21:22:39.203 INFO: CGI interpreter: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:22:39.203 INFO: CGI pattern: **.php$
+- 21:22:39.203 INFO: Hide files patterns: 
+- 21:22:39.203 INFO: CGI environment variables set: TMP=C:\Users\muham\AppData\Local\Temp\,TEMP=C:\Users\muham\AppData\Local\Temp\,TMPDIR=C:\Users\muham\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:22:39.219 INFO: Web server url: http://127.0.0.1:8000/
+- 21:22:39.219 INFO: remote_debugging_port = 65158
+- 21:22:39.219 DEBUG: Command line string for the browser process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=65158
+- 21:22:39.328 DEBUG: App::OnContextInitialized()
+- 21:22:39.328 DEBUG: Window max width/height = 1286/690
+- 21:22:39.359 DEBUG: GetBrowserWindow(): not found, hwnd = 853720
+- 21:22:39.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:22:39.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:22:39.391 DEBUG: StoreBrowserWindow(): hwnd = 853720
+- 21:22:39.000 DEBUG: Command line string for the gpu-process process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134f --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=5EDA0F03645432F196DDE63EABEB6C56 --mojo-platform-channel-handle=1796 /prefetch:2
+- 21:22:39.469 DEBUG: ClientHandler::OnAfterCreated()
+- 21:22:39.469 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:22:39.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:22:39.000 DEBUG: Command line string for the renderer process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=982FE897DA5114A05B78791FA472DAAC --lang=en-US --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=982FE897DA5114A05B78791FA472DAAC --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+[0605/212239.854:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:22:40.219 DEBUG: OnBrowserCreated()
+- 21:22:41.781 DEBUG: OnContextCreated()
+- 21:22:42.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:22:57.734 DEBUG: WM_DESTROY
+- 21:22:57.734 DEBUG: RemoveBrowserWindow(): hwnd = 853720
+- 21:22:57.734 INFO: Stopping Mongoose web server
+- 21:22:57.734 DEBUG: Mongoose webserver stopped immediately
+- 21:22:57.734 DEBUG: OnBeforeClose() hwnd=395482
+- 21:22:57.750 DEBUG: RemoveBrowserWindow(): hwnd = 395482
+- 21:22:57.750 DEBUG: GetBrowserWindow(): not found, hwnd = 395482
+- 21:22:58.766 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:22:58.781 DEBUG: Calling CefQuitMessageLoop()
+- 21:22:58.828 INFO: Ended application
+- 21:22:58.828 INFO: --------------------------------------------------------
+- 18:50:48.172 INFO: --------------------------------------------------------
+- 18:50:48.172 INFO: Started application
+- 18:50:48.172 INFO: Logging to: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 18:50:48.172 INFO: Log level = DEBUG4
+- 18:50:48.172 INFO: Starting Mongoose 3.9c web server
+- 18:50:48.172 INFO: WWW directory: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www\karyawan
+- 18:50:48.172 INFO: Index files: /,/
+- 18:50:48.172 INFO: CGI interpreter: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 18:50:48.172 INFO: CGI pattern: **.php$
+- 18:50:48.172 INFO: Hide files patterns: 
+- 18:50:48.188 INFO: CGI environment variables set: TMP=C:\Users\muham\AppData\Local\Temp\,TEMP=C:\Users\muham\AppData\Local\Temp\,TMPDIR=C:\Users\muham\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:50:48.219 INFO: Web server url: http://127.0.0.1:8000/
+- 18:50:48.219 INFO: remote_debugging_port = 53763
+- 18:50:48.219 DEBUG: Command line string for the browser process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=53763
+- 18:50:48.313 DEBUG: App::OnContextInitialized()
+- 18:50:48.328 DEBUG: Window max width/height = 1286/690
+- 18:50:48.328 DEBUG: GetBrowserWindow(): not found, hwnd = 66438
+- 18:50:48.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:50:48.328 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:50:48.328 DEBUG: StoreBrowserWindow(): hwnd = 66438
+- 18:50:48.422 DEBUG: ClientHandler::OnAfterCreated()
+- 18:50:48.422 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:50:48.438 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:50:48.000 DEBUG: Command line string for the gpu-process process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134f --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=59B0678D0FCE0A7E2E12091F55CE705F --mojo-platform-channel-handle=1888 /prefetch:2
+- 18:50:48.016 DEBUG: Command line string for the renderer process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=41DDF49940C20081CCC74933F047692A --lang=en-US --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=41DDF49940C20081CCC74933F047692A --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+- 18:50:48.079 DEBUG: OnBrowserCreated()
+[0607/185048.717:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:50:49.781 INFO: GET 500 /
+- 18:50:49.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 18:50:53.125 DEBUG: WM_DESTROY
+- 18:50:53.125 DEBUG: RemoveBrowserWindow(): hwnd = 66438
+- 18:50:53.141 INFO: Stopping Mongoose web server
+- 18:50:53.141 DEBUG: Mongoose webserver stopped immediately
+- 18:50:53.156 DEBUG: OnBeforeClose() hwnd=197380
+- 18:50:53.156 DEBUG: RemoveBrowserWindow(): hwnd = 197380
+- 18:50:53.156 DEBUG: GetBrowserWindow(): not found, hwnd = 197380
+- 18:50:53.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:50:53.172 DEBUG: Calling CefQuitMessageLoop()
+- 18:50:53.547 DEBUG: OnBrowserDestroyed()
+- 18:50:53.266 INFO: Ended application
+- 18:50:53.266 INFO: --------------------------------------------------------
+- 18:51:53.172 INFO: --------------------------------------------------------
+- 18:51:53.188 INFO: Started application
+- 18:51:53.188 INFO: Logging to: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 18:51:53.188 INFO: Log level = DEBUG4
+- 18:51:53.188 INFO: Starting Mongoose 3.9c web server
+- 18:51:53.188 INFO: WWW directory: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www\karyawan
+- 18:51:53.188 INFO: Index files: /,/
+- 18:51:53.188 INFO: CGI interpreter: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 18:51:53.188 INFO: CGI pattern: **.php$
+- 18:51:53.188 INFO: Hide files patterns: 
+- 18:51:53.188 INFO: CGI environment variables set: TMP=C:\Users\muham\AppData\Local\Temp\,TEMP=C:\Users\muham\AppData\Local\Temp\,TMPDIR=C:\Users\muham\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:51:53.203 INFO: Web server url: http://127.0.0.1:8000/
+- 18:51:53.203 INFO: remote_debugging_port = 57520
+- 18:51:53.203 DEBUG: Command line string for the browser process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=57520
+- 18:51:53.313 DEBUG: App::OnContextInitialized()
+- 18:51:53.313 DEBUG: Window max width/height = 1286/690
+- 18:51:53.313 DEBUG: GetBrowserWindow(): not found, hwnd = 66582
+- 18:51:53.313 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:51:53.313 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:51:53.313 DEBUG: StoreBrowserWindow(): hwnd = 66582
+- 18:51:53.406 DEBUG: ClientHandler::OnAfterCreated()
+- 18:51:53.406 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:51:53.422 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:51:53.016 DEBUG: Command line string for the gpu-process process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134f --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=BACCAD60D2D739B5E00F44930FA79823 --mojo-platform-channel-handle=1900 /prefetch:2
+- 18:51:53.000 DEBUG: Command line string for the renderer process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=ED858FF3598D8F6A93DAE3280B048A52 --lang=en-US --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=ED858FF3598D8F6A93DAE3280B048A52 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 18:51:53.109 DEBUG: OnBrowserCreated()
+[0607/185153.688:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:51:55.078 DEBUG: OnContextCreated()
+- 18:51:56.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 18:52:00.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 18:52:01.937 DEBUG: OnContextCreated()
+- 18:52:01.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absensi
+- 18:52:02.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absensi
+- 18:52:02.078 DEBUG: OnContextCreated()
+- 18:52:02.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/pekerjaan
+- 18:52:53.625 INFO: GET 500 /
+- 18:52:54.406 INFO: GET 404 /favicon.ico
+- 18:53:29.922 INFO: GET 500 /
+- 18:53:32.110 INFO: GET 500 /
+- 18:53:36.250 INFO: GET 500 /
+- 18:53:50.344 DEBUG: WM_DESTROY
+- 18:53:50.344 DEBUG: RemoveBrowserWindow(): hwnd = 66582
+- 18:53:50.344 INFO: Stopping Mongoose web server
+- 18:53:50.344 DEBUG: Mongoose webserver stopped immediately
+- 18:53:50.344 DEBUG: OnBeforeClose() hwnd=66590
+- 18:53:50.344 DEBUG: RemoveBrowserWindow(): hwnd = 66590
+- 18:53:50.344 DEBUG: GetBrowserWindow(): not found, hwnd = 66590
+- 18:53:50.344 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:53:50.344 DEBUG: Calling CefQuitMessageLoop()
+- 18:53:50.391 INFO: Ended application
+- 18:53:50.391 INFO: --------------------------------------------------------
+- 19:04:28.125 INFO: --------------------------------------------------------
+- 19:04:28.125 INFO: Started application
+- 19:04:28.125 INFO: Logging to: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 19:04:28.125 INFO: Log level = DEBUG4
+- 19:04:28.141 INFO: Starting Mongoose 3.9c web server
+- 19:04:28.141 INFO: WWW directory: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www\karyawan
+- 19:04:28.141 INFO: Index files: /,/
+- 19:04:28.141 INFO: CGI interpreter: C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 19:04:28.141 INFO: CGI pattern: **.php$
+- 19:04:28.141 INFO: Hide files patterns: 
+- 19:04:28.141 INFO: CGI environment variables set: TMP=C:\Users\muham\AppData\Local\Temp\,TEMP=C:\Users\muham\AppData\Local\Temp\,TMPDIR=C:\Users\muham\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:04:28.156 INFO: Web server url: http://127.0.0.1:8000/
+- 19:04:28.156 INFO: remote_debugging_port = 60485
+- 19:04:28.156 DEBUG: Command line string for the browser process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=60485
+- 19:04:28.250 DEBUG: App::OnContextInitialized()
+- 19:04:28.250 DEBUG: Window max width/height = 1286/690
+- 19:04:28.266 DEBUG: GetBrowserWindow(): not found, hwnd = 132426
+- 19:04:28.266 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:04:28.266 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:04:28.266 DEBUG: StoreBrowserWindow(): hwnd = 132426
+- 19:04:28.375 DEBUG: ClientHandler::OnAfterCreated()
+- 19:04:28.375 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:04:28.000 DEBUG: Command line string for the gpu-process process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134f --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=82CF2DDAE3963FD0BBFC1CED4C0FF32E --mojo-platform-channel-handle=1804 /prefetch:2
+- 19:04:28.406 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:04:28.016 DEBUG: Command line string for the renderer process: "C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D647D3D6C0D5FAFB756689399CCC7431 --lang=en-US --lang=en-US --log-file="C:\Users\muham\OneDrive\Documents\php desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D647D3D6C0D5FAFB756689399CCC7431 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+- 19:04:28.078 DEBUG: OnBrowserCreated()
+[0607/190428.565:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:04:30.812 DEBUG: OnContextCreated()
+- 19:04:30.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 19:05:05.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 19:05:06.047 DEBUG: OnContextCreated()
+- 19:05:06.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absensi
+- 19:05:13.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absensi
+- 19:05:14.625 DEBUG: OnContextCreated()
+- 19:05:14.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/pekerjaan
+[0607/190518.411:INFO:CONSOLE(7)] "Alpine Error: "ReferenceError: focusTrap is not defined"
+
+Expression: "openModal"
+Element:", source: https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js (7)
+[0607/190518.411:INFO:CONSOLE(7)] "Uncaught ReferenceError: focusTrap is not defined", source: https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js (7)
+[0607/190520.446:INFO:CONSOLE(7)] "Alpine Error: "TypeError: this.trapCleanup is not a function"
+
+Expression: "closeModal"
+Element:", source: https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js (7)
+[0607/190520.447:INFO:CONSOLE(7)] "Uncaught TypeError: this.trapCleanup is not a function", source: https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js (7)
+- 19:05:23.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/pekerjaan
+- 19:05:24.531 DEBUG: OnContextCreated()
+- 19:05:24.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/cuti
+- 19:05:40.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/cuti
+- 19:05:40.297 DEBUG: OnContextCreated()
+- 19:05:41.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/izin
+- 19:49:45.391 DEBUG: WM_DESTROY
+- 19:49:45.391 DEBUG: RemoveBrowserWindow(): hwnd = 132426
+- 19:49:45.406 INFO: Stopping Mongoose web server
+- 19:49:45.406 DEBUG: Mongoose webserver stopped immediately
+- 19:49:45.422 DEBUG: OnBeforeClose() hwnd=132442
+- 19:49:45.422 DEBUG: RemoveBrowserWindow(): hwnd = 132442
+- 19:49:45.422 DEBUG: GetBrowserWindow(): not found, hwnd = 132442
+- 19:49:45.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:49:45.422 DEBUG: Calling CefQuitMessageLoop()
+- 19:49:45.469 INFO: Ended application
+- 19:49:45.469 INFO: --------------------------------------------------------
